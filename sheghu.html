@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="../static/css2.css">
+</head>
+<body>
+
+ <!-- This part is for background video -->
+ <video autoplay muted loop id="myVideo">
+	<source src="../static/bg8.mp4" type="video/mp4">
+  </video>
+
+<button class="back" onclick="window.location.href='http://127.0.0.1:5000/';">Back To Home</button>
+<form action="http://127.0.0.1:5000/send_string" method="POST">
+<table>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="word">CONNECT</td>
+      <td class="word">DISCONNECT</td>
+    </tr>
+    <tr>
+      <td class="word">FAN 1</td>
+      <td class="col2">
+		<img src="../static/1.png" height="80px" width="80px">
+	  </td>
+      <td class="col3"><button type="submit" name="string_value" value="g"><span>ON</span></button></td>
+      <td class="col4"><button type="submit" name="string_value" value="h"><span>OFF</span></button></td>
+    </tr>
+    <tr>
+      <td class="word">FAN 2</td>
+      <td class="col2">
+		<img src="../static/1.png" height="80px" width="80px">
+	  </td>
+	  <td class="col3"><button type="submit" name="string_value" value="i"><span>ON</span></button></td>
+      <td class="col4"><button type="submit" name="string_value" value="j"><span>OFF</span></button></td>
+    </tr>
+    <tr>
+      <td class="word">BULB 1</td>
+      <td class="col2">
+		<img src="../static/2.png" height="80px" width="80px">
+	  </td>
+	  <td class="col3"><button type="submit" name="string_value" value="c"><span>ON</span></button></td>
+      <td class="col4"><button type="submit" name="string_value" value="d"><span>OFF</span></button></td>
+    </tr>
+    <tr>
+      <td class="word">BULB 2</td>
+      <td class="col2">
+		<img src="../static/2.png" height="80px" width="80px">
+	  </td>
+	  <td class="col3"><button type="submit" name="string_value" value="e"><span>ON</span></button></td>
+      <td class="col4"><button type="submit" name="string_value" value="f"><span>OFF</span></button></td>
+    </tr>
+    <tr>
+      <td class="word">TV</td>
+      <td class="col2">
+		<img src="../static/3.png" height="80px" width="80px">
+	  </td>
+	  <td class="col3"><button type="submit" name="string_value" value="a"><span>ON</span></button></td>
+      <td class="col4"><button type="submit" name="string_value" value="b"><span>OFF</span></button></td>
+    </tr>
+  </tbody>
+</table>
+</form>
+  
+</body>
+</html>

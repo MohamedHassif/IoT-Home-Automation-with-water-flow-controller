@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WASHROOM</title>
+    <link rel="stylesheet" href="../static/css3.css">
+</head>
+<body>
+
+    <!-- This part is for background video -->
+ <video autoplay muted loop id="myVideo">
+	<source src="../static/bg8.mp4" type="video/mp4">
+  </video>
+
+    <button class="back" onclick="window.location.href='http://127.0.0.1:5000/';">Back To Homepage</button>
+<form action="http://127.0.0.1:5000/send_string" method="POST">
+<h1>Washroom Modes</h1>
+    <!-- <img class="img1" src="../static/main.png" alt="Tap"> -->
+    
+    
+    <img class="img2" src="../static/mode1.png">
+    <button type="submit" name="string_value" value="k">Mode 1</button>
+    <p class="p1">MODE 1 - Flow of water = High</p>
+    
+    
+    <img class="img3" src="../static/mode2.png">
+    <button type="submit" name="string_value" value="l">Mode 2</button>
+    <p class="p2">MODE 2 - Flow of water = Low</p>
+    
+    
+    <img class="img4" src="../static/mode3.png">
+    <button type="submit" name="string_value" value="m">Mode 3</button>
+    <p class="p3">MODE 3 - Flow of water = Medium</p>
+    </form>
+<br>
+
+</body>
+</html>
